@@ -1,0 +1,725 @@
+fileFormatVersion: 2
+guid: 949b0f8a11cd2834bab194d2b624c403
+timeCreated: 1462667584
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ankle_left
+    100002: ankle_right
+    100004: arm_left
+    100006: arm_right
+    100008: Character_Mesh
+    100010: //RootNode
+    100012: chest
+    100014: elbow_left
+    100016: elbow_right
+    100018: fingers_left
+    100020: fingers_right
+    100022: foot_left
+    100024: foot_right
+    100026: head
+    100028: hips
+    100030: knee_left
+    100032: knee_right
+    100034: leg_left
+    100036: leg_right
+    100038: neck
+    100040: palm_left
+    100042: palm_right
+    100044: shoulder_left
+    100046: shoulder_right
+    100048: spine_lower
+    100050: spine_upper
+    100052: wrist_left
+    100054: wrist_right
+    400000: ankle_left
+    400002: ankle_right
+    400004: arm_left
+    400006: arm_right
+    400008: Character_Mesh
+    400010: //RootNode
+    400012: chest
+    400014: elbow_left
+    400016: elbow_right
+    400018: fingers_left
+    400020: fingers_right
+    400022: foot_left
+    400024: foot_right
+    400026: head
+    400028: hips
+    400030: knee_left
+    400032: knee_right
+    400034: leg_left
+    400036: leg_right
+    400038: neck
+    400040: palm_left
+    400042: palm_right
+    400044: shoulder_left
+    400046: shoulder_right
+    400048: spine_lower
+    400050: spine_upper
+    400052: wrist_left
+    400054: wrist_right
+    4300000: Character_Mesh
+    7400000: Attack1
+    7400002: Attack2
+    7400004: T-pose
+    7400006: Walk
+    7400008: Run
+    7400010: Idle
+    7400012: Roll
+    9500000: //RootNode
+    13700000: Character_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attack1
+      takeName: Take 001
+      firstFrame: 82
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character_Mesh
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/leg_left
+        weight: 1
+      - path: hips/leg_left/knee_left
+        weight: 1
+      - path: hips/leg_left/knee_left/ankle_left
+        weight: 1
+      - path: hips/leg_left/knee_left/ankle_left/foot_left
+        weight: 1
+      - path: hips/leg_right
+        weight: 1
+      - path: hips/leg_right/knee_right
+        weight: 1
+      - path: hips/leg_right/knee_right/ankle_right
+        weight: 1
+      - path: hips/leg_right/knee_right/ankle_right/foot_right
+        weight: 1
+      - path: hips/spine_lower
+        weight: 1
+      - path: hips/spine_lower/spine_upper
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/neck
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/neck/head
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left/wrist_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left/wrist_left/palm_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left/wrist_left/palm_left/fingers_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right/wrist_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right/wrist_right/palm_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right/wrist_right/palm_right/fingers_right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Attack2
+      takeName: Take 001
+      firstFrame: 93
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character_Mesh
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/leg_left
+        weight: 1
+      - path: hips/leg_left/knee_left
+        weight: 1
+      - path: hips/leg_left/knee_left/ankle_left
+        weight: 1
+      - path: hips/leg_left/knee_left/ankle_left/foot_left
+        weight: 1
+      - path: hips/leg_right
+        weight: 1
+      - path: hips/leg_right/knee_right
+        weight: 1
+      - path: hips/leg_right/knee_right/ankle_right
+        weight: 1
+      - path: hips/leg_right/knee_right/ankle_right/foot_right
+        weight: 1
+      - path: hips/spine_lower
+        weight: 1
+      - path: hips/spine_lower/spine_upper
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/neck
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/neck/head
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left/wrist_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left/wrist_left/palm_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left/wrist_left/palm_left/fingers_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right/wrist_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right/wrist_right/palm_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right/wrist_right/palm_right/fingers_right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: T-pose
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character_Mesh
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/leg_left
+        weight: 1
+      - path: hips/leg_left/knee_left
+        weight: 1
+      - path: hips/leg_left/knee_left/ankle_left
+        weight: 1
+      - path: hips/leg_left/knee_left/ankle_left/foot_left
+        weight: 1
+      - path: hips/leg_right
+        weight: 1
+      - path: hips/leg_right/knee_right
+        weight: 1
+      - path: hips/leg_right/knee_right/ankle_right
+        weight: 1
+      - path: hips/leg_right/knee_right/ankle_right/foot_right
+        weight: 1
+      - path: hips/spine_lower
+        weight: 1
+      - path: hips/spine_lower/spine_upper
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/neck
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/neck/head
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left/wrist_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left/wrist_left/palm_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left/wrist_left/palm_left/fingers_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right/wrist_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right/wrist_right/palm_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right/wrist_right/palm_right/fingers_right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character_Mesh
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/leg_left
+        weight: 1
+      - path: hips/leg_left/knee_left
+        weight: 1
+      - path: hips/leg_left/knee_left/ankle_left
+        weight: 1
+      - path: hips/leg_left/knee_left/ankle_left/foot_left
+        weight: 1
+      - path: hips/leg_right
+        weight: 1
+      - path: hips/leg_right/knee_right
+        weight: 1
+      - path: hips/leg_right/knee_right/ankle_right
+        weight: 1
+      - path: hips/leg_right/knee_right/ankle_right/foot_right
+        weight: 1
+      - path: hips/spine_lower
+        weight: 1
+      - path: hips/spine_lower/spine_upper
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/neck
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/neck/head
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left/wrist_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left/wrist_left/palm_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left/wrist_left/palm_left/fingers_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right/wrist_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right/wrist_right/palm_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right/wrist_right/palm_right/fingers_right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 32
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character_Mesh
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/leg_left
+        weight: 1
+      - path: hips/leg_left/knee_left
+        weight: 1
+      - path: hips/leg_left/knee_left/ankle_left
+        weight: 1
+      - path: hips/leg_left/knee_left/ankle_left/foot_left
+        weight: 1
+      - path: hips/leg_right
+        weight: 1
+      - path: hips/leg_right/knee_right
+        weight: 1
+      - path: hips/leg_right/knee_right/ankle_right
+        weight: 1
+      - path: hips/leg_right/knee_right/ankle_right/foot_right
+        weight: 1
+      - path: hips/spine_lower
+        weight: 1
+      - path: hips/spine_lower/spine_upper
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/neck
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/neck/head
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left/wrist_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left/wrist_left/palm_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left/wrist_left/palm_left/fingers_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right/wrist_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right/wrist_right/palm_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right/wrist_right/palm_right/fingers_right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 49
+      lastFrame: 81
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character_Mesh
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/leg_left
+        weight: 1
+      - path: hips/leg_left/knee_left
+        weight: 1
+      - path: hips/leg_left/knee_left/ankle_left
+        weight: 1
+      - path: hips/leg_left/knee_left/ankle_left/foot_left
+        weight: 1
+      - path: hips/leg_right
+        weight: 1
+      - path: hips/leg_right/knee_right
+        weight: 1
+      - path: hips/leg_right/knee_right/ankle_right
+        weight: 1
+      - path: hips/leg_right/knee_right/ankle_right/foot_right
+        weight: 1
+      - path: hips/spine_lower
+        weight: 1
+      - path: hips/spine_lower/spine_upper
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/neck
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/neck/head
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left/wrist_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left/wrist_left/palm_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left/wrist_left/palm_left/fingers_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right/wrist_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right/wrist_right/palm_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right/wrist_right/palm_right/fingers_right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Roll
+      takeName: Take 001
+      firstFrame: 115
+      lastFrame: 133
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character_Mesh
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/leg_left
+        weight: 1
+      - path: hips/leg_left/knee_left
+        weight: 1
+      - path: hips/leg_left/knee_left/ankle_left
+        weight: 1
+      - path: hips/leg_left/knee_left/ankle_left/foot_left
+        weight: 1
+      - path: hips/leg_right
+        weight: 1
+      - path: hips/leg_right/knee_right
+        weight: 1
+      - path: hips/leg_right/knee_right/ankle_right
+        weight: 1
+      - path: hips/leg_right/knee_right/ankle_right/foot_right
+        weight: 1
+      - path: hips/spine_lower
+        weight: 1
+      - path: hips/spine_lower/spine_upper
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/neck
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/neck/head
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left/wrist_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left/wrist_left/palm_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_left/arm_left/elbow_left/wrist_left/palm_left/fingers_left
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right/wrist_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right/wrist_right/palm_right
+        weight: 1
+      - path: hips/spine_lower/spine_upper/chest/shoulder_right/arm_right/elbow_right/wrist_right/palm_right/fingers_right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 8.2
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Character_Mesh
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
